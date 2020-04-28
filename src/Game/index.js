@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
+import Tetris from '../components/Tetris';
 
 export default function Game() {
-  return <div className="game">This is the game...</div>;
+  return <Tetris/>;
 }
